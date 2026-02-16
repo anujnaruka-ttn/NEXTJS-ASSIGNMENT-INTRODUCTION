@@ -2,7 +2,7 @@ import { recipeApi } from "@/lib/recipes";
 import Link from "next/link";
 import { RecipeTable } from "../components/recipes/RecipeTable";
 
-// export const revalidate = 60; //ISR After every 60 seconds
+export const revalidate = 60; //ISR After every 60 seconds
 
 export default async function Recipes(){
 
